@@ -19,7 +19,7 @@ body{
     }
 
 }
-#card p{
+.card p{
     background-color: blue;
     /* color: red; */
     color:goldenrod;
