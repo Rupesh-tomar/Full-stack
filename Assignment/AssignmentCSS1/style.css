@@ -1,0 +1,43 @@
+body{
+
+}
+
+
+.f{
+    height: 600px;
+    width: 1200px;
+    border-radius: 4px;
+    border: 1px solid black;
+    background-color: blue;
+}
+
+#a{
+    display: inline-block;
+    height:300px;
+    width: 300px;
+    margin: 100px;
+    border-radius: 5px;
+    background-color:white;
+}
+
+#b{
+    display: inline-block;
+    height:500px;
+    width: 300px;
+    margin-top: 50px;
+    /* margin-bottom: 800px; */
+    border-radius: 5px;
+    background-color:white;
+}
+input{
+    border: none;
+}
+#button{
+    width:220px;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 34px;
+    margin-top: 30px;
+
+   
+}
