@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 200px;
+    background-color: #faebd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    margin: 10px 0px 0px 20px ;
+    padding-left: 50px;
+}
+
+#spanhu {
+    color: blue;
+}
+
+#hero h1 {
+    font-size: 40px;
+}
+
+               /* ab main section bna rhe hai */
+
+section {
+    display: flex;
+    background-color: blue;
+    width: 100vw;
+    height: 90vh;
+}
+
+#mainsection {
+    align-self: center;
+}
+
+#kucchu {
+    width: 500px;
+    height: 500px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+#pucchu {
+    align-self: center;
+}
