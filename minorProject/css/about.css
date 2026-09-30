@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 200px;
+    background-color: #faebd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    margin: 10px 0px 0px 20px ;
+    padding-left: 50px;
+}
+
+#spanhu {
+    color: blue;
+}
+
+#hero h1 {
+    font-size: 40px;
+}
+
+               /* ab main section bna rhe hai */
+
+section {
+    display: flex;
+    background-color:white;
+    width: 100vw;
+    height: 90vh;
+}
+
+#mainsection {
+    align-self: center;
+}
+
+#kucchu {
+    width: 650px;
+    height: 500px;
+    margin-left: 80px;
+    border-radius: 20px;
+}
+
+#button {
+   
+    align-self: flex-start;
+    background-color: #eef2ff;
+    color: #155eef;
+    font-weight: 700;
+    padding: 5px 10px 5px 10px;
+    width: 18%;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.our-div{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 70px;;
+    height:80%;
+    width: 40%;
+    margin-top: 80px;
+
+}
+
+#heading {
+        margin-top: 20px;
+        margin-bottom: 15px;
+}
+
+.para {
+    color: #667085;
+    line-height: 25px;
+
+}
+
+#para2 {
+    margin-top: 20px;
+}
+
+#div-sec{
+
+    display: grid;
+
+}
+#calender {
+    padding: 10px 10px ;
+    background-color: #95b5f6;
+}
+.proof {
+    display: flex;
+    margin-top: 10px;
+
+}
+#web-circle
+{
+   padding: 10px 10px ;
+    background-color: #91fcb0;
+    margin-left: 100px;
+}
+.since{
+    margin-left: 10px;
+    h4{
+        font-variant: 16px inter;
+    }
+}
+.web{
+    margin-left: 10px;
+}
+.since-web{
+    color: #667085;
+    font-size: 14px;
+}
+
+#section-two{
+    height: 85%;
+    width:100%;
+    border: 1px solid blue;
+    background-color:rgb(249, 244, 244);
+}
+
+ #section-two .button1{
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 90px;
+    background-color: #eef2ff;
+    color: #155eef;
+    font-weight: 700;
+    /* padding: 5px 10px 5px 10px; */
+    width: 18%;
+    border-radius: 40px;
+    text-align: center;
+    border: 2px black solid;
+    padding: 10px;
+}
+#sectiontwo-para p{
+    height:30%;
+    width: 40%;
+    border: 2px black solid;
+    padding: auto;
+    margin-left: 500px;
+    margin-top: 25px;
+    /* align-items: center; */
+    font-size: 25px;
+    font-variant: 15px;
+    font-weight: 700;
+}
+
+.div-width{
+
+    display: grid;
+    grid-template: auto auto auto;
+    height: 200px;
+    width: 100%;
+
+    background-color: rgb(234, 189, 189);
+}
