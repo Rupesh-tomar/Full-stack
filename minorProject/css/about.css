@@ -33,6 +33,7 @@ section {
     background-color:white;
     width: 100vw;
     height: 90vh;
+    margin-left: 35px;
 }
 
 #mainsection {
@@ -61,11 +62,9 @@ section {
 .our-div{
     display: flex;
     margin-left: 50px;
-    margin-top: 70px;;
+    margin-top: 100px;;
     height:80%;
     width: 40%;
-    margin-top: 80px;
-
 }
 
 #heading {
@@ -89,74 +88,135 @@ section {
 
 }
 #calender {
-    padding: 10px 10px ;
-    background-color: #95b5f6;
+    padding: 10px 12px 0px 12px;
+    background-color: #eef2ff;
+    border-radius: 5px;
 }
+
+#calender img {
+    width: 25px;
+    height: 27px;
+}
+
 .proof {
     display: flex;
-    margin-top: 10px;
+    margin-top: 60px;
 
 }
 #web-circle
 {
-   padding: 10px 10px ;
-    background-color: #91fcb0;
+    padding: 15px 15px ;
+    background-color: #e7f9f0;
     margin-left: 100px;
+    border-radius: 5px;
 }
+
+#web-circle img {
+    width: 20px;
+    height:20px;
+}
+
 .since{
     margin-left: 10px;
+    margin-top: 5px;
     h4{
         font-variant: 16px inter;
+        margin-bottom: 5px;
     }
 }
 .web{
     margin-left: 10px;
+    margin-top: 5px;
 }
 .since-web{
     color: #667085;
     font-size: 14px;
+    margin-top: 5px;
+    
 }
 
 #section-two{
-    height: 85%;
-    width:100%;
-    border: 1px solid blue;
-    background-color:rgb(249, 244, 244);
+    height: 450px;
+    width: 1250px;
+    padding: 100px;
+    background-color: #66708516;
+
+
 }
 
  #section-two .button1{
-    align-items: center;
-    margin-left: 600px;
-    margin-top: 90px;
-    background-color: #eef2ff;
-    color: #155eef;
-    font-weight: 700;
-    /* padding: 5px 10px 5px 10px; */
-    width: 18%;
-    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+}
+#sectiontwo-para {
     text-align: center;
-    border: 2px black solid;
-    padding: 10px;
-}
-#sectiontwo-para p{
-    height:30%;
-    width: 40%;
-    border: 2px black solid;
-    padding: auto;
-    margin-left: 500px;
-    margin-top: 25px;
-    /* align-items: center; */
-    font-size: 25px;
-    font-variant: 15px;
-    font-weight: 700;
+    margin: 20px 0px 60px 0px;
+
 }
 
-.div-width{
+.cardDiv {
+    height: 450px;
+    width: 1250px;
+    margin-left: 30px;
+    border: 2px solid black;
+}
 
-    display: grid;
-    grid-template: auto auto auto;
+.card {
+    width: 280px;
     height: 200px;
-    width: 100%;
+    background-color: white;
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #667085;
+    box-shadow: 3px 3px 2px 0px rgb(187, 187, 187);
+    
 
-    background-color: rgb(234, 189, 189);
+
 }
+
+.card img {
+    width: 25px;
+    height: 25px;
+}
+
+.cardimg {
+    padding: 10px;
+    background-color: #d9d9ef;
+    width: fit-content;
+    border-radius: 5px;
+    justify-self: center;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+#cardDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.button1 {
+    padding: 5px;
+    border-radius: 15px;
+    width: 150px;
+    background-color: #155eef14;
+    color: #155eef;
+    justify-self: center;
+}
+
+
+
+.card {
+    transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 5px 5px 3px 1px rgb(187, 187, 187);
+}
+
+
+
