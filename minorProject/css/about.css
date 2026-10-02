@@ -7,7 +7,7 @@
 header {
     width: 100vw;
     height: 200px;
-    background-color: #faebd7;
+    background: linear-gradient(180deg, #17214B 0%, #1B2857 100%);
     display: flex;
     justify-content: center;
     align-items: center;
