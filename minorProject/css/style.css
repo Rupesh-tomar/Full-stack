@@ -34,11 +34,10 @@
    .main-div{
     display: flex;
     width: 100%;
-    border: 2px solid black;
-    
+    border: 2px solid black;  
    }
 
-     ul{
+    ul{
         margin-left: 55px;
         margin: 50px;
         color: rgb(88, 88, 225);
@@ -76,12 +75,9 @@
 
     #div2{
          border:  1px solid rgb(211, 91, 91);
-         width: 40%;  
-         
+         width: 40%;      
          background-color: rgb(227, 227, 231);
-
-         display: flex;
-         
+         display: flex;       
          justify-content: center;
          gap: 15px;
          
@@ -99,8 +95,5 @@
             text-align:center;
             
         }
-
-        #box2{
-
-        }
 }
+
