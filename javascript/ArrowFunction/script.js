@@ -8,6 +8,26 @@
 //   return a + b;
 // });
 
-const a = () => {
-  console.log("this is Arrow Function");
-};
+const add = (a,b) =>{
+  console.log(a+b);
+  
+}
+
+add(10,2);
+
+function game(score)
+{
+  callback(50);
+}
+
+game((score) => {
+console.log(score)
+});
+
+function game(callback) {
+    callback(50);
+}
+
+game((score) => {
+    console.log("Score: " + score);
+});

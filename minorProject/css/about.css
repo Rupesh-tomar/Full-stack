@@ -144,7 +144,24 @@ section {
 
 }
 
- #section-two .button1{
+#section-3{
+    height: 450px;
+    width: 1250px;
+    padding: 100px;
+    background-color: #eef2fc16;
+
+
+}
+
+.button8{
+        margin-bottom: 15px;
+        font-size: 20px;
+        color: blue;
+        padding: 4px 0px;
+        background-color: #EEF2ff;
+}
+
+ #section-two .button8{
     display: flex;
     justify-content: center;
 }
@@ -175,6 +192,7 @@ section {
 
 }
 
+
 .card img {
     width: 25px;
     height: 25px;
@@ -189,6 +207,36 @@ section {
     margin-bottom: 15px;
 }
 
+.card2 {
+    width: 280px;
+    height: 250px;
+    background-color: white;
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #667085;
+    box-shadow: 3px 3px 2px 0px rgb(187, 187, 187);
+}
+#parag{ 
+    margin: 12px;
+    color: blue;
+}
+.cardimg2{
+    padding: 10px;
+    background-color: #d9d9ef;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-self: center;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.cardimg2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
 .card h3 {
     margin-bottom: 15px;
 }
@@ -198,13 +246,14 @@ section {
     gap: 20px;
 }
 
-.button1 {
+.button8 {
     padding: 5px;
     border-radius: 15px;
     width: 150px;
     background-color: #155eef14;
     color: #155eef;
     justify-self: center;
+    text-align: center;
 }
 
 
@@ -218,5 +267,237 @@ section {
     box-shadow: 5px 5px 3px 1px rgb(187, 187, 187);
 }
 
+.section-4-container-div2{
+     /* border: 2px solid #892b74;  */
+    padding: 120px 0px;
+    padding-right: 20px;
+    
+} 
+
+.section4{
+    height: 300px;
+    width: 94%;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+
+}
+.section-4-container{
+    border: 2px solid #01ff45;
+    background: linear-gradient(36deg,#020a29 0%, #040f45 60%, transparent 100%);
+    background-color: #020a29;
+    border-radius: 20px;
+    width: 90%;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 120px; */
+
+}
+.section-4-container-div1 h2{
+    color: #fff;
+    font-size: 35px;
+    font-family: "Sora", sans-serif;
+    margin-top: 95px;
+    margin-left: 28px;
+}
+.section-4-container-div1 p{
+    font-family: "Sora", sans-serif;
+    color: #848c9d;
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 28px;
+}
+.button1{
+    border: 1px;
+    border-radius: 7px;
+    padding: 20px 9px;
+    background: linear-gradient(90deg, #2563eb, #5b3fc4);
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Sora", sans-serif;
+    
+}
+
+/* Footer Section */
+.footer {
+    /* border: 2px solid #fd0303; */
+    width: 100%;
+    height: 450px;
+    background-color: #0b1437;
+    /* padding: 20px 20px; */
+    margin-top: 80px;
+    color: #ffffff;
+    font-family: "Sora", sans-serif;
+}
+.footer-container {
+    /* border: 2px solid #78fd03; */
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.55fr 0.6fr 1.25fr;
+    gap: 45px;
+    padding: 70px 70px;
+    align-items: start;
+
+}
+/* Company Information */
+/* .footer-about{
+    border: 2px solid #2702fb;
+} */
+.footer-about h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 28px;
+    color: #ffffff;
+}
+.footer-about h3 span {
+    color: #2563eb;
+}
+.footer-about p {
+    color: #8994aa;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 400px;
+    margin-bottom: 32px;
+}
+/* Social Media Icons */
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+.social-links a {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b2547;
+    color: #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: linear-gradient(90deg, #2563eb, #5b3fc4);
+    transform: translateY(-3px);
+}
+/* Company and Services Links */
+.footer-links h3,
+.footer-newsletter h3 {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.footer-links a {
+    display: block;
+    color: #a0a9bd;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 18px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ffffff;
+}
+
+/* Newsletter Section */
+.footer-newsletter p {
+    color: #8994aa;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+
+.newsletter-form {
+    /* border: 2px solid #dc0404; */
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    width: 100%;
+}
+
+.newsletter-form input {
+    flex: 1;
+    min-width: 0;
+    height: 50px;
+    padding: 0 20px;
+    border: 2px solid #303b5c;
+    border-radius: 12px;
+    outline: none;
+    background-color: #1b2547;
+    color: #ffffff;
+    font-family: "Sora", sans-serif;
+    font-size: 15px;
+}
+
+.newsletter-form input::placeholder {
+    color: #121b39;
+}
+
+.newsletter-form input:focus {
+    border-color: #2563eb;
+}
+
+.newsletter-form button {
+    width: 70px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #2563eb, #5b3fc4);
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+    opacity: 0.85;
+}
+
+
+@media (max-width: 1100px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    .footer {
+        padding: 80px 5%;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .footer {
+        padding: 55px 25px;
+    }
+
+    .footer-newsletter h3,
+    .footer-links h3 {
+        margin-bottom: 20px;
+    }
+
+    .newsletter-form input {
+        height: 58px;
+    }
+
+    .newsletter-form button {
+        width: 65px;
+        height: 58px;
+    }
+}
 
 
