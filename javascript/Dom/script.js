@@ -34,3 +34,12 @@ function submit2() {
     console.log(fieldName[i] + " : " + formData[i]);
   }
 }
+
+const heading = document.querySelector("h2");
+console.log(heading);
+
+console.log(heading.parentElement.firstChild);
+console.log(heading.parentElement.children);
+console.log(heading.parentElement.lastElementChild);
+
+
