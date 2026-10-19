@@ -5,7 +5,7 @@ console.log(text + " Raj vardhan");
 function submit() {
   console.log("Submit Button Clicked");
 
-  const nm = document.querySelector("#fullName").value.trim();
+  const nm = document.getElementById("fullName").value.trim();
   const em = document.getElementById("email").value.trim();
   const ph = document.getElementById("phone").value.trim();
   const dob = document.getElementById("DOB").value.trim();
