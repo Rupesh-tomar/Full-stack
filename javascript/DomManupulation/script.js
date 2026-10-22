@@ -8,8 +8,6 @@ console.log(paraText);
 console.log(btnlabel);
 
 
-
-
 function updateMyName(){
     const myName =document.getElementById("myName").value.trim();
     paraText.innerText="Welcome TO YOUR LEARNING";

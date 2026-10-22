@@ -42,7 +42,7 @@ const data = [
     button2: "buynow",
   },
   {
-    title: "fakeYou 16x",
+    title: "faceYou 16x",
     description: "very good phone is deep beetroot Color",
     button1: "₹25000",
     button2: "buynow",

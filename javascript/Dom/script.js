@@ -20,7 +20,7 @@ function submit() {
 
 function submit2() {
   const formData = [];
-
+  
   document.querySelectorAll("input, select").forEach((item) => {
     formData.push(item.value.trim());
   });
