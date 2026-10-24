@@ -1,0 +1,9 @@
+#outer{
+    border: 1px solid black;
+    width: 500px;
+    padding: 20px;
+    
+    #inner{
+        border: 1px solid #000;   
+    }
+}
