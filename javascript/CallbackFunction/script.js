@@ -18,3 +18,19 @@ sum(8, 10, (a, b) => {
   let y = b + 5;
   console.log(x + y);
 });
+
+function divide(k,j)
+{
+   console.log(k,j);
+   
+}
+
+function multiply(i,o,jor2)
+{
+  let j=i*2;
+  let k=o*2;
+
+  jor2(k,j);
+}
+
+multiply(10,40, divide)
